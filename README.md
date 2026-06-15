@@ -115,9 +115,7 @@ Predictive_Modeling_Bank_Marketing_Response_Prediction/
 │   ├── decision_tree_roc_curve.png
 │   ├── random_forest_roc_curve.png
 │   ├── roc_curve_comparison.png
-│   └── feature_importance.png
-│
-└── requirements.txt
+└──── feature_importance.png 
 ```
 
 ---
@@ -293,6 +291,8 @@ Although the dataset is imbalanced, Random Forest demonstrated stronger predicti
 ### Observation
 
 The Random Forest model produced fewer overall classification errors compared to the Decision Tree model.
+<img width="1025" height="495" alt="confusion_matrix_comparison" src="https://github.com/user-attachments/assets/c431eb30-bd8d-4f7f-98af-df903be27bc3" />
+
 
 ### Insight
 
@@ -311,6 +311,8 @@ Confusion matrices provide a deeper understanding of model performance beyond ac
 ### Observation
 
 The Random Forest ROC curve showed stronger discrimination capability between the two classes.
+<img width="691" height="547" alt="roc_curve_comparison" src="https://github.com/user-attachments/assets/08b08c2d-aa46-404d-8610-05e9f9544df4" />
+
 
 ### Insight
 
@@ -340,6 +342,8 @@ The best-performing model (Random Forest) was selected for feature importance an
 ### Observation
 
 The duration of customer contact was the most influential factor in determining subscription outcomes.
+<img width="972" height="547" alt="feature_importance" src="https://github.com/user-attachments/assets/b06b2ec9-4164-40a9-8090-3874a7f8748f" />
+
 
 ### Insight
 
